@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Rahasia: API key Gemini JANGAN masuk repo
+.streamlit/secrets.toml
+
+# File hasil ekspor saat uji coba
+*.xlsx
+*.json
+!data_contoh.json
